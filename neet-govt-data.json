@@ -1,0 +1,76 @@
+{
+  "meta": {
+    "exam": "NEET UG",
+    "year": 2026,
+    "inflationFactor": 1.10,
+    "lastUpdated": "2026-02-03",
+    "disclaimer": "Predictions are based on previous years’ trends. Actual cutoffs may vary."
+  },
+
+  "rankTable": [
+    { "marks": 720, "rank": 1 },
+    { "marks": 700, "rank": 200 },
+    { "marks": 680, "rank": 1200 },
+    { "marks": 650, "rank": 5000 },
+    { "marks": 620, "rank": 10000 },
+    { "marks": 600, "rank": 15000 },
+    { "marks": 580, "rank": 22000 },
+    { "marks": 560, "rank": 30000 },
+    { "marks": 540, "rank": 40000 },
+    { "marks": 520, "rank": 55000 },
+    { "marks": 500, "rank": 70000 }
+  ],
+
+  "categories": ["UR", "OBC", "SC", "ST", "EWS"],
+
+  "states": [
+    { "code": "AIQ", "name": "All India Quota" },
+    { "code": "JK", "name": "Jammu & Kashmir" },
+    { "code": "DL", "name": "Delhi" },
+    { "code": "TN", "name": "Tamil Nadu" },
+    { "code": "KA", "name": "Karnataka" }
+  ],
+
+  "colleges": [
+    {
+      "id": 101,
+      "name": "Government Medical College, Jammu",
+      "state": "JK",
+      "fees": 13000,
+      "cutoff": {
+        "aiq": { "UR": 7800, "OBC": 9200, "SC": 48000, "ST": 62000 },
+        "sq": { "UR": 6200, "OBC": 7800, "SC": 42000, "ST": 58000 }
+      }
+    },
+    {
+      "id": 102,
+      "name": "Government Medical College, Srinagar",
+      "state": "JK",
+      "fees": 13000,
+      "cutoff": {
+        "aiq": { "UR": 7200, "OBC": 8800, "SC": 45000, "ST": 60000 },
+        "sq": { "UR": 5600, "OBC": 7200, "SC": 40000, "ST": 55000 }
+      }
+    },
+    {
+      "id": 201,
+      "name": "Maulana Azad Medical College",
+      "state": "DL",
+      "fees": 12000,
+      "cutoff": {
+        "aiq": { "UR": 90, "OBC": 350, "SC": 1200, "ST": 2500 },
+        "sq": { "UR": 85, "OBC": 300, "SC": 1000, "ST": 2200 }
+      }
+    },
+    {
+      "id": 301,
+      "name": "Madras Medical College",
+      "state": "TN",
+      "fees": 14000,
+      "cutoff": {
+        "aiq": { "UR": 150, "OBC": 800, "SC": 3000, "ST": 6000 },
+        "sq": { "UR": 100, "OBC": 600, "SC": 2500, "ST": 5000 }
+      }
+    }
+  ]
+}
