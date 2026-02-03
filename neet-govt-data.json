@@ -1,76 +1,148 @@
 {
   "meta": {
     "exam": "NEET UG",
-    "year": 2026,
-    "inflationFactor": 1.10,
+    "scope": "All Government Medical Colleges (MBBS)",
+    "year": "2024-2025",
     "lastUpdated": "2026-02-03",
-    "disclaimer": "Predictions are based on previous years’ trends. Actual cutoffs may vary."
+    "disclaimer": "Based on NMC, MCC and State Counselling data. Seats and cutoffs change yearly."
   },
-
-  "rankTable": [
-    { "marks": 720, "rank": 1 },
-    { "marks": 700, "rank": 200 },
-    { "marks": 680, "rank": 1200 },
-    { "marks": 650, "rank": 5000 },
-    { "marks": 620, "rank": 10000 },
-    { "marks": 600, "rank": 15000 },
-    { "marks": 580, "rank": 22000 },
-    { "marks": 560, "rank": 30000 },
-    { "marks": 540, "rank": 40000 },
-    { "marks": 520, "rank": 55000 },
-    { "marks": 500, "rank": 70000 }
-  ],
-
-  "categories": ["UR", "OBC", "SC", "ST", "EWS"],
-
-  "states": [
-    { "code": "AIQ", "name": "All India Quota" },
-    { "code": "JK", "name": "Jammu & Kashmir" },
-    { "code": "DL", "name": "Delhi" },
-    { "code": "TN", "name": "Tamil Nadu" },
-    { "code": "KA", "name": "Karnataka" }
-  ],
-
   "colleges": [
-    {
-      "id": 101,
-      "name": "Government Medical College, Jammu",
-      "state": "JK",
-      "fees": 13000,
-      "cutoff": {
-        "aiq": { "UR": 7800, "OBC": 9200, "SC": 48000, "ST": 62000 },
-        "sq": { "UR": 6200, "OBC": 7800, "SC": 42000, "ST": 58000 }
-      }
-    },
-    {
-      "id": 102,
-      "name": "Government Medical College, Srinagar",
-      "state": "JK",
-      "fees": 13000,
-      "cutoff": {
-        "aiq": { "UR": 7200, "OBC": 8800, "SC": 45000, "ST": 60000 },
-        "sq": { "UR": 5600, "OBC": 7200, "SC": 40000, "ST": 55000 }
-      }
-    },
-    {
-      "id": 201,
-      "name": "Maulana Azad Medical College",
-      "state": "DL",
-      "fees": 12000,
-      "cutoff": {
-        "aiq": { "UR": 90, "OBC": 350, "SC": 1200, "ST": 2500 },
-        "sq": { "UR": 85, "OBC": 300, "SC": 1000, "ST": 2200 }
-      }
-    },
-    {
-      "id": 301,
-      "name": "Madras Medical College",
-      "state": "TN",
-      "fees": 14000,
-      "cutoff": {
-        "aiq": { "UR": 150, "OBC": 800, "SC": 3000, "ST": 6000 },
-        "sq": { "UR": 100, "OBC": 600, "SC": 2500, "ST": 5000 }
-      }
-    }
+
+    { "id": 1, "name": "Madras Medical College", "state": "Tamil Nadu", "city": "Chennai", "type": "State Govt", "seats": 250, "aiq": true },
+    { "id": 2, "name": "Stanley Medical College", "state": "Tamil Nadu", "city": "Chennai", "type": "State Govt", "seats": 250, "aiq": true },
+    { "id": 3, "name": "Kilpauk Medical College", "state": "Tamil Nadu", "city": "Chennai", "type": "State Govt", "seats": 150, "aiq": true },
+    { "id": 4, "name": "Government Medical College, Omandurar Estate", "state": "Tamil Nadu", "city": "Chennai", "type": "State Govt", "seats": 100, "aiq": true },
+    { "id": 5, "name": "ESIC Medical College KK Nagar", "state": "Tamil Nadu", "city": "Chennai", "type": "ESIC", "seats": 250, "aiq": true },
+    { "id": 6, "name": "Madurai Medical College", "state": "Tamil Nadu", "city": "Madurai", "type": "State Govt", "seats": 250, "aiq": true },
+    { "id": 7, "name": "Coimbatore Medical College", "state": "Tamil Nadu", "city": "Coimbatore", "type": "State Govt", "seats": 200, "aiq": true },
+    { "id": 8, "name": "Thanjavur Medical College", "state": "Tamil Nadu", "city": "Thanjavur", "type": "State Govt", "seats": 150, "aiq": true },
+    { "id": 9, "name": "Tirunelveli Medical College", "state": "Tamil Nadu", "city": "Tirunelveli", "type": "State Govt", "seats": 250, "aiq": true },
+    { "id": 10, "name": "AIIMS Madurai", "state": "Tamil Nadu", "city": "Madurai", "type": "AIIMS", "seats": 50, "aiq": true },
+
+    { "id": 11, "name": "Bangalore Medical College & Research Institute", "state": "Karnataka", "city": "Bengaluru", "type": "State Govt", "seats": 250, "aiq": true },
+    { "id": 12, "name": "Mysore Medical College", "state": "Karnataka", "city": "Mysuru", "type": "State Govt", "seats": 150, "aiq": true },
+    { "id": 13, "name": "KIMS Hubballi", "state": "Karnataka", "city": "Hubballi", "type": "State Govt", "seats": 200, "aiq": true },
+    { "id": 14, "name": "VIMS Bellary", "state": "Karnataka", "city": "Ballari", "type": "State Govt", "seats": 200, "aiq": true },
+    { "id": 15, "name": "ESIC Medical College Rajajinagar", "state": "Karnataka", "city": "Bengaluru", "type": "ESIC", "seats": 125, "aiq": true },
+
+    { "id": 16, "name": "Andhra Medical College", "state": "Andhra Pradesh", "city": "Visakhapatnam", "type": "State Govt", "seats": 250, "aiq": true },
+    { "id": 17, "name": "Guntur Medical College", "state": "Andhra Pradesh", "city": "Guntur", "type": "State Govt", "seats": 250, "aiq": true },
+    { "id": 18, "name": "Kurnool Medical College", "state": "Andhra Pradesh", "city": "Kurnool", "type": "State Govt", "seats": 250, "aiq": true },
+    { "id": 19, "name": "Rangaraya Medical College", "state": "Andhra Pradesh", "city": "Kakinada", "type": "State Govt", "seats": 250, "aiq": true },
+    { "id": 20, "name": "SV Medical College", "state": "Andhra Pradesh", "city": "Tirupati", "type": "State Govt", "seats": 240, "aiq": true },
+    { "id": 21, "name": "AIIMS Mangalagiri", "state": "Andhra Pradesh", "city": "Mangalagiri", "type": "AIIMS", "seats": 125, "aiq": true },
+
+    { "id": 22, "name": "Osmania Medical College", "state": "Telangana", "city": "Hyderabad", "type": "State Govt", "seats": 250, "aiq": true },
+    { "id": 23, "name": "Gandhi Medical College", "state": "Telangana", "city": "Secunderabad", "type": "State Govt", "seats": 250, "aiq": true },
+    { "id": 24, "name": "Kakatiya Medical College", "state": "Telangana", "city": "Warangal", "type": "State Govt", "seats": 250, "aiq": true },
+    { "id": 25, "name": "AIIMS Bibinagar", "state": "Telangana", "city": "Bibinagar", "type": "AIIMS", "seats": 100, "aiq": true }
+    ,
+    { "id": 26, "name": "Seth GS Medical College (KEM)", "state": "Maharashtra", "city": "Mumbai", "type": "Municipal Govt", "seats": 250, "aiq": true },
+    { "id": 27, "name": "Grant Government Medical College", "state": "Maharashtra", "city": "Mumbai", "type": "State Govt", "seats": 250, "aiq": true },
+    { "id": 28, "name": "Lokmanya Tilak Municipal Medical College", "state": "Maharashtra", "city": "Mumbai", "type": "Municipal Govt", "seats": 200, "aiq": true },
+    { "id": 29, "name": "Topiwala National Medical College", "state": "Maharashtra", "city": "Mumbai", "type": "Municipal Govt", "seats": 150, "aiq": true },
+    { "id": 30, "name": "BJ Government Medical College", "state": "Maharashtra", "city": "Pune", "type": "State Govt", "seats": 250, "aiq": true },
+    { "id": 31, "name": "Government Medical College Nagpur", "state": "Maharashtra", "city": "Nagpur", "type": "State Govt", "seats": 250, "aiq": true },
+    { "id": 32, "name": "Indira Gandhi Government Medical College", "state": "Maharashtra", "city": "Nagpur", "type": "State Govt", "seats": 200, "aiq": true },
+    { "id": 33, "name": "Government Medical College Aurangabad", "state": "Maharashtra", "city": "Aurangabad", "type": "State Govt", "seats": 200, "aiq": true },
+    { "id": 34, "name": "Government Medical College Miraj", "state": "Maharashtra", "city": "Miraj", "type": "State Govt", "seats": 200, "aiq": true },
+    { "id": 35, "name": "Government Medical College Solapur", "state": "Maharashtra", "city": "Solapur", "type": "State Govt", "seats": 200, "aiq": true },
+    { "id": 36, "name": "AIIMS Nagpur", "state": "Maharashtra", "city": "Nagpur", "type": "AIIMS", "seats": 125, "aiq": true },
+
+    { "id": 37, "name": "BJ Medical College", "state": "Gujarat", "city": "Ahmedabad", "type": "State Govt", "seats": 250, "aiq": true },
+    { "id": 38, "name": "Government Medical College Vadodara", "state": "Gujarat", "city": "Vadodara", "type": "State Govt", "seats": 250, "aiq": true },
+    { "id": 39, "name": "Government Medical College Surat", "state": "Gujarat", "city": "Surat", "type": "State Govt", "seats": 250, "aiq": true },
+    { "id": 40, "name": "PDU Medical College", "state": "Gujarat", "city": "Rajkot", "type": "State Govt", "seats": 250, "aiq": true },
+    { "id": 41, "name": "MP Shah Medical College", "state": "Gujarat", "city": "Jamnagar", "type": "State Govt", "seats": 250, "aiq": true },
+    { "id": 42, "name": "Government Medical College Bhavnagar", "state": "Gujarat", "city": "Bhavnagar", "type": "State Govt", "seats": 200, "aiq": true },
+    { "id": 43, "name": "AIIMS Rajkot", "state": "Gujarat", "city": "Rajkot", "type": "AIIMS", "seats": 50, "aiq": true },
+
+    { "id": 44, "name": "Goa Medical College", "state": "Goa", "city": "Panaji", "type": "State Govt", "seats": 180, "aiq": true },
+
+    { "id": 45, "name": "Gandhi Medical College", "state": "Madhya Pradesh", "city": "Bhopal", "type": "State Govt", "seats": 250, "aiq": true },
+    { "id": 46, "name": "MGM Medical College", "state": "Madhya Pradesh", "city": "Indore", "type": "State Govt", "seats": 250, "aiq": true },
+    { "id": 47, "name": "NSCB Medical College", "state": "Madhya Pradesh", "city": "Jabalpur", "type": "State Govt", "seats": 180, "aiq": true },
+    { "id": 48, "name": "GR Medical College", "state": "Madhya Pradesh", "city": "Gwalior", "type": "State Govt", "seats": 200, "aiq": true },
+    { "id": 49, "name": "Shyam Shah Medical College", "state": "Madhya Pradesh", "city": "Rewa", "type": "State Govt", "seats": 150, "aiq": true },
+    { "id": 50, "name": "Bundelkhand Medical College", "state": "Madhya Pradesh", "city": "Sagar", "type": "State Govt", "seats": 125, "aiq": true },
+    { "id": 51, "name": "AIIMS Bhopal", "state": "Madhya Pradesh", "city": "Bhopal", "type": "AIIMS", "seats": 100, "aiq": true }
+    ,
+    { "id": 52, "name": "King George's Medical University", "state": "Uttar Pradesh", "city": "Lucknow", "type": "State Govt", "seats": 250, "aiq": true },
+    { "id": 53, "name": "GSVM Medical College", "state": "Uttar Pradesh", "city": "Kanpur", "type": "State Govt", "seats": 250, "aiq": true },
+    { "id": 54, "name": "SN Medical College", "state": "Uttar Pradesh", "city": "Agra", "type": "State Govt", "seats": 150, "aiq": true },
+    { "id": 55, "name": "MLN Medical College", "state": "Uttar Pradesh", "city": "Prayagraj", "type": "State Govt", "seats": 200, "aiq": true },
+    { "id": 56, "name": "LLRM Medical College", "state": "Uttar Pradesh", "city": "Meerut", "type": "State Govt", "seats": 150, "aiq": true },
+    { "id": 57, "name": "BRD Medical College", "state": "Uttar Pradesh", "city": "Gorakhpur", "type": "State Govt", "seats": 150, "aiq": true },
+    { "id": 58, "name": "IMS BHU", "state": "Uttar Pradesh", "city": "Varanasi", "type": "Central University", "seats": 250, "aiq": true },
+    { "id": 59, "name": "JNMCH AMU", "state": "Uttar Pradesh", "city": "Aligarh", "type": "Central University", "seats": 150, "aiq": true },
+    { "id": 60, "name": "AIIMS Gorakhpur", "state": "Uttar Pradesh", "city": "Gorakhpur", "type": "AIIMS", "seats": 125, "aiq": true },
+    { "id": 61, "name": "AIIMS Rae Bareli", "state": "Uttar Pradesh", "city": "Rae Bareli", "type": "AIIMS", "seats": 100, "aiq": true },
+
+    { "id": 62, "name": "SMS Medical College", "state": "Rajasthan", "city": "Jaipur", "type": "State Govt", "seats": 250, "aiq": true },
+    { "id": 63, "name": "SN Medical College", "state": "Rajasthan", "city": "Jodhpur", "type": "State Govt", "seats": 250, "aiq": true },
+    { "id": 64, "name": "SP Medical College", "state": "Rajasthan", "city": "Bikaner", "type": "State Govt", "seats": 250, "aiq": true },
+    { "id": 65, "name": "RNT Medical College", "state": "Rajasthan", "city": "Udaipur", "type": "State Govt", "seats": 200, "aiq": true },
+    { "id": 66, "name": "JLN Medical College", "state": "Rajasthan", "city": "Ajmer", "type": "State Govt", "seats": 150, "aiq": true },
+    { "id": 67, "name": "Government Medical College Kota", "state": "Rajasthan", "city": "Kota", "type": "State Govt", "seats": 150, "aiq": true },
+    { "id": 68, "name": "AIIMS Jodhpur", "state": "Rajasthan", "city": "Jodhpur", "type": "AIIMS", "seats": 125, "aiq": true },
+
+    { "id": 69, "name": "AIIMS New Delhi", "state": "Delhi", "city": "New Delhi", "type": "AIIMS", "seats": 132, "aiq": true },
+    { "id": 70, "name": "Maulana Azad Medical College", "state": "Delhi", "city": "New Delhi", "type": "State Govt", "seats": 250, "aiq": true },
+    { "id": 71, "name": "VMMC & Safdarjung Hospital", "state": "Delhi", "city": "New Delhi", "type": "State Govt", "seats": 170, "aiq": true },
+    { "id": 72, "name": "Lady Hardinge Medical College", "state": "Delhi", "city": "New Delhi", "type": "State Govt", "seats": 240, "aiq": true },
+    { "id": 73, "name": "UCMS", "state": "Delhi", "city": "New Delhi", "type": "State Govt", "seats": 170, "aiq": true },
+    { "id": 74, "name": "ABVIMS (RML Hospital)", "state": "Delhi", "city": "New Delhi", "type": "State Govt", "seats": 100, "aiq": true },
+
+    { "id": 75, "name": "Government Medical College Amritsar", "state": "Punjab", "city": "Amritsar", "type": "State Govt", "seats": 250, "aiq": true },
+    { "id": 76, "name": "Government Medical College Patiala", "state": "Punjab", "city": "Patiala", "type": "State Govt", "seats": 250, "aiq": true },
+    { "id": 77, "name": "Guru Gobind Singh Medical College", "state": "Punjab", "city": "Faridkot", "type": "State Govt", "seats": 150, "aiq": true },
+    { "id": 78, "name": "AIIMS Bathinda", "state": "Punjab", "city": "Bathinda", "type": "AIIMS", "seats": 100, "aiq": true },
+
+    { "id": 79, "name": "PGIMS Rohtak", "state": "Haryana", "city": "Rohtak", "type": "State Govt", "seats": 250, "aiq": true },
+    { "id": 80, "name": "BPS Government Medical College", "state": "Haryana", "city": "Sonepat", "type": "State Govt", "seats": 150, "aiq": true },
+    { "id": 81, "name": "Kalpana Chawla Medical College", "state": "Haryana", "city": "Karnal", "type": "State Govt", "seats": 120, "aiq": true },
+    { "id": 82, "name": "SHKM Government Medical College", "state": "Haryana", "city": "Nalhar", "type": "State Govt", "seats": 100, "aiq": true },
+
+    { "id": 83, "name": "IGMC Shimla", "state": "Himachal Pradesh", "city": "Shimla", "type": "State Govt", "seats": 150, "aiq": true },
+    { "id": 84, "name": "Dr RP Medical College", "state": "Himachal Pradesh", "city": "Tanda", "type": "State Govt", "seats": 120, "aiq": true },
+    { "id": 85, "name": "AIIMS Bilaspur", "state": "Himachal Pradesh", "city": "Bilaspur", "type": "AIIMS", "seats": 100, "aiq": true },
+
+    { "id": 86, "name": "Government Medical College Haldwani", "state": "Uttarakhand", "city": "Haldwani", "type": "State Govt", "seats": 150, "aiq": true },
+    { "id": 87, "name": "Government Medical College Srinagar", "state": "Uttarakhand", "city": "Srinagar", "type": "State Govt", "seats": 150, "aiq": true },
+    { "id": 88, "name": "Doon Medical College", "state": "Uttarakhand", "city": "Dehradun", "type": "State Govt", "seats": 150, "aiq": true },
+    { "id": 89, "name": "AIIMS Rishikesh", "state": "Uttarakhand", "city": "Rishikesh", "type": "AIIMS", "seats": 100, "aiq": true }
+    ,
+    { "id": 90, "name": "Medical College Kolkata", "state": "West Bengal", "city": "Kolkata", "type": "State Govt", "seats": 250, "aiq": true },
+    { "id": 91, "name": "RG Kar Medical College", "state": "West Bengal", "city": "Kolkata", "type": "State Govt", "seats": 250, "aiq": true },
+    { "id": 92, "name": "NRS Medical College", "state": "West Bengal", "city": "Kolkata", "type": "State Govt", "seats": 200, "aiq": true },
+    { "id": 93, "name": "IPGMER (SSKM)", "state": "West Bengal", "city": "Kolkata", "type": "State Govt", "seats": 200, "aiq": true },
+    { "id": 94, "name": "AIIMS Kalyani", "state": "West Bengal", "city": "Kalyani", "type": "AIIMS", "seats": 100, "aiq": true },
+
+    { "id": 95, "name": "PMCH Patna", "state": "Bihar", "city": "Patna", "type": "State Govt", "seats": 250, "aiq": true },
+    { "id": 96, "name": "NMCH Patna", "state": "Bihar", "city": "Patna", "type": "State Govt", "seats": 150, "aiq": true },
+    { "id": 97, "name": "DMCH Darbhanga", "state": "Bihar", "city": "Darbhanga", "type": "State Govt", "seats": 150, "aiq": true },
+    { "id": 98, "name": "AIIMS Patna", "state": "Bihar", "city": "Patna", "type": "AIIMS", "seats": 100, "aiq": true },
+
+    { "id": 99, "name": "RIMS Ranchi", "state": "Jharkhand", "city": "Ranchi", "type": "State Govt", "seats": 180, "aiq": true },
+    { "id": 100, "name": "AIIMS Deoghar", "state": "Jharkhand", "city": "Deoghar", "type": "AIIMS", "seats": 125, "aiq": true },
+
+    { "id": 101, "name": "SCB Medical College", "state": "Odisha", "city": "Cuttack", "type": "State Govt", "seats": 250, "aiq": true },
+    { "id": 102, "name": "MKCG Medical College", "state": "Odisha", "city": "Berhampur", "type": "State Govt", "seats": 250, "aiq": true },
+    { "id": 103, "name": "AIIMS Bhubaneswar", "state": "Odisha", "city": "Bhubaneswar", "type": "AIIMS", "seats": 100, "aiq": true },
+
+    { "id": 104, "name": "Pt JNM Medical College", "state": "Chhattisgarh", "city": "Raipur", "type": "State Govt", "seats": 200, "aiq": true },
+    { "id": 105, "name": "AIIMS Raipur", "state": "Chhattisgarh", "city": "Raipur", "type": "AIIMS", "seats": 125, "aiq": true },
+
+    { "id": 106, "name": "Gauhati Medical College", "state": "Assam", "city": "Guwahati", "type": "State Govt", "seats": 200, "aiq": true },
+    { "id": 107, "name": "AIIMS Guwahati", "state": "Assam", "city": "Guwahati", "type": "AIIMS", "seats": 100, "aiq": true },
+
+    { "id": 108, "name": "AGMC Agartala", "state": "Tripura", "city": "Agartala", "type": "State Govt", "seats": 125, "aiq": true },
+    { "id": 109, "name": "Zoram Medical College", "state": "Mizoram", "city": "Falkawn", "type": "State Govt", "seats": 100, "aiq": true },
+    { "id": 110, "name": "TRIHMS", "state": "Arunachal Pradesh", "city": "Naharlagun", "type": "State Govt", "seats": 100, "aiq": true },
+
+    { "id": 111, "name": "ANIIMS", "state": "Andaman & Nicobar", "city": "Port Blair", "type": "State Govt", "seats": 100, "aiq": true },
+    { "id": 112, "name": "JIPMER Puducherry", "state": "Puducherry", "city": "Puducherry", "type": "Central Govt", "seats": 200, "aiq": true },
+    { "id": 113, "name": "Indira Gandhi Medical College & RI", "state": "Puducherry", "city": "Puducherry", "type": "State Govt", "seats": 180, "aiq": true },
+    { "id": 114, "name": "GMC Chandigarh", "state": "Chandigarh", "city": "Chandigarh", "type": "State Govt", "seats": 150, "aiq": true }
   ]
 }
